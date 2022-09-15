@@ -1,0 +1,110 @@
+@font-face {
+    font-family: Josefin;
+    src: url(../assets/fonts/NotoSerifDisplay-VariableFont_wdth\,wght.ttf);
+    
+}
+@font-face{
+    font-family: Atomic;
+    src:url(../assets/fonts/AtomicAge-Regular.ttf)
+}
+body{
+        width: 99%;
+        font-family: Josefin;
+        background-color: rgb(248, 240, 230);
+    }
+
+main{
+    display: flex;
+    
+    border: 2px solid rgb(170, 186, 190);
+}
+.cabecera{
+    display: flex;
+    border: 2px solid rgb(170, 186, 190);
+    justify-content: space-around;
+    align-items: center;
+}
+.cabecera__izquierda{
+    font-family: Atomic;
+    font-size: 4rem;
+    width: 50%;
+    margin: 1rem;
+}
+.cabecera__centro{
+    font-family: Atomic;
+    font-size: 1.2rem;
+    width: 50%;
+    margin: 1rem;
+    
+}
+.cabecera__derecha{
+/* 
+    width: 30%; */
+}
+.cabecera__derecha{
+    width: 300px;
+}
+li{
+    font-style: none;
+    list-style: none;
+}
+.navegador__ropa{
+    width: 25%;
+    border-right: 2px solid rgb(170, 186, 190);
+}
+
+.zona__ropa{
+    display: flex;
+    width: 75%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ropa__tarjeta{
+    border: 2px solid rgb(170, 186, 190);
+    width: 320px;
+    text-align: center;
+    margin: 1rem;
+}
+.ropa__tarjeta img{
+    width: 70%;
+    height: 60%;
+}
+.tarjeta{
+    border-top: 5px solid rgb(170, 186, 190);
+    width: 500px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10%;
+    margin: 1.5rem;
+}
+.muestra{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.cabecera__texto{
+    font-size: 5rem;
+    text-align: center;
+    border:2px solid rgb(170, 186, 190) ;
+}
+
+/* Menu para la pagina merch y la pagina music */
+.naveg{
+    justify-content:space-around;
+    margin: 1rem;
+    display: flex;
+}
+.naveg__newmenu{
+    display: inline;
+    font-size: 1.5rem;
+    list-style: none;
+    margin: 1rem;
+    width: 10%;
+    border-left:2px solid rgb(170, 186, 190);
+    padding: 1rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

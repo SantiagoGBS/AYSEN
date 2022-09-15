@@ -1,0 +1,176 @@
+@font-face {
+    font-family: Josefin;
+    src: url(../assets/fonts/NotoSerifDisplay-VariableFont_wdth\,wght.ttf);
+}
+body{
+    width: 99%;
+    font-family: Josefin;
+    background-color: rgb(248, 240, 230);
+}
+.cajaprincipal{
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+    height: 100%;
+}
+main{
+    
+    /* border:2px solid black; */
+    width: 50%;
+}
+.present{
+    font-size: 12rem;
+    margin-top: 10%;
+    padding: 5%;
+}
+.navega{
+    width: 1000px;
+    /* margin-top: 10rem; */
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.naveg__li{
+    font-size: 5rem;
+    list-style: none;
+    margin: 1rem;
+    width: 10%;
+    border-bottom:2px solid black;
+    
+   
+}
+/* Nosotros */
+.integrantes{
+    margin:2rem;
+}
+.caja__video{
+    display: flex;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    margin:5rem;
+}
+.video__texto{
+    font-size: 4rem;
+    margin: 4rem;
+
+}
+.cajanosotros{
+    display: flex;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    margin:5rem;
+}
+.cajanosotros__imagen{
+    /* border:2px solid black; */
+    width: 35%;
+    height: 900px;
+    background-image: url(../assets/images/byn.jpg) ;
+   background-size:cover ;
+}
+
+.cajanosotros__texto{
+    width: 30%;
+    /* border:2px solid black; */
+    padding: 5rem;
+}
+.integrantes{
+}
+.cajanosotros__gabriel{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size:cover ;
+    background-image: url(../assets/images/gabrie.jpg) ;
+    margin: 2rem;
+}
+.cajanosotros__jesus{
+    background-size:cover ;
+    background-image: url(../assets/images/jesus.jpg) ;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 2rem;
+}
+.cajanosotros__javi{
+    background-size:cover ;
+    background-image: url(../assets/images/javi.jpg) ;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 2rem;
+}
+.naveg{
+    margin-top: 10rem;
+}
+/*  */
+.cabecera__texto{
+    font-size: 4rem;
+    text-align: center;
+    border:2px solid rgb(0, 0, 0) ;
+}
+.navega{
+    justify-content:space-around;
+    margin-left: 20%;
+    display: flex;
+}
+.naveg__newmenu{
+    display: inline;
+    font-size: 1.5rem;
+    list-style: none;
+    margin: 1rem;
+    width: 10%;
+    border-left:2px solid rgb(170, 186, 190);
+    padding: 1rem;
+}
+/* FORMULARIOS */
+.cajaform{
+    margin-top: 2rem;
+    display: flex;
+    border: 2px solid rgba(0, 0, 0, 0.384);
+    width: 70%;
+    margin-left: 15%;
+    background-image: url(../assets/images/degradado);
+    box-shadow: 60px 36px rgb(64, 65, 65);
+}
+.cajaform__imagenformulario{
+    width: 500px;
+    height: 600px;
+}
+.cajaform__formulario{
+  margin: auto;
+  border: 3px solid rgba(0, 0, 0, 0.185);
+  padding: 1rem;
+}
+.cajaform__label{
+    margin: 0.5rem;
+}
+.cajaform__input{
+    margin-left: 2rem;
+}
+/* FOOOTERRRR */
+.redes{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 40px;
+    color:white;
+    margin-top: 4rem;
+}
+.redes__icono{
+    justify-content: space-around;
+    display: flex;
+}
+.redes__icono--size{
+    display:inline;
+    list-style: none;
+    color: white;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+.redes__icono--size img{
+    
+    width: 50px;
+    height: 30px;
+}
